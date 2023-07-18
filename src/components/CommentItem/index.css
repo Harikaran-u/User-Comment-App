@@ -1,0 +1,99 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.cmt-list {
+  list-style-type: none;
+  max-width: 900px;
+}
+.profile-logo {
+  height: 30px;
+  width: 30px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+  margin-right: 5px;
+}
+.user-name {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #334155;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.cmt-time {
+  font-family: Roboto;
+  font-size: 10px;
+  color: #7e858e;
+}
+.user-cmt-des {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.like-delete-btn {
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+}
+.like-delete {
+  height: 16px;
+  width: 16px;
+}
+.user-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-name-cmt-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.user-time-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.like-delete-cont {
+  display: flex;
+  justify-content: space-between;
+}
+.hr-line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 10px;
+}
